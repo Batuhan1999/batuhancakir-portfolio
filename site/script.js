@@ -1,10 +1,5 @@
 const root = document.documentElement;
 const themeButton = document.querySelector(".theme-toggle");
-const savedTheme = localStorage.getItem("theme");
-
-if (savedTheme === "light" || savedTheme === "dark") {
-  root.dataset.theme = savedTheme;
-}
 
 function currentTheme() {
   if (root.dataset.theme) return root.dataset.theme;

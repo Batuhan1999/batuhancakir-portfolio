@@ -347,6 +347,14 @@ h1 {
   transform: translateY(1px);
 }
 
+.not-found {
+  min-height: calc(100dvh - 72px);
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  padding-block: 64px;
+}
+
 footer {
   min-height: 84px;
   display: flex;
@@ -424,7 +432,7 @@ footer p {
 }
 
 @media (max-width: 520px) {
-  .site-header nav a:nth-child(2) {
+  .site-header nav a[href="#about"] {
     display: none;
   }
 
