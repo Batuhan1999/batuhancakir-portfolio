@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "batuhancakir-portfolio",
+  "name": "personal-portfolio",
   "compatibility_date": "2026-10-03",
   "assets": {
     "directory": "./site",
